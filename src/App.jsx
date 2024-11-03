@@ -1,8 +1,8 @@
-
+import './app.scss'
 
 const App = () => {
   return (
-    <div>
+    <div className='app'>
       aaaaaaaaa
     </div>
   );
