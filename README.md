@@ -5,9 +5,11 @@ https://www.framer.com/motion/ <br/>
 npm install framer-motion <br/>
 2. SCSS<br/>
 3. React Obserber<br/>
+3. React Icons<br/>
 
 #### All Install at a time <br/>
-npm install framer-motion sass react-intersection-observer <br/>
+1. npm install framer-motion sass react-intersection-observer <br/>
+2. npm install react-icons <br/>
 <br/>
 <br/>
 ### Make files in src... <br/>

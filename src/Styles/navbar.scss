@@ -1,0 +1,14 @@
+@import "../Styles/variables";
+@import "../Styles/constant";
+
+.app__navbar{
+    @include flexBetween;
+    height: 70px;
+    padding: 0 $md-gap;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: $trans;
+    // color: $secondary-color;
+}
