@@ -1,9 +1,22 @@
+import { useState } from 'react';
 import { routes } from '../Data/dummy';
 import '../Styles/navbar.scss'
 
 const Navbar = () => {
+
+    const [bgColor, setBgColor] = useState(false)
+
+    function changeBgColor (){
+        if(window.scrollY >=70){
+            setBgColor(true)
+        }
+        else{setBgColor(false) }    
+    }
+
+    window.addEventListener("scroll", changeBgColor)
+
     return (
-        <div className='app__navbar'>
+        <div className={bgColor ? 'app__navbar active' : 'app__navbar'}>
             <div className="navbar__logo">
                 <p>D'task</p>
             </div>

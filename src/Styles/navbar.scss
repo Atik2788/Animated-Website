@@ -12,6 +12,10 @@
     transition: $trans;
     // color: $secondary-color;
 
+    &.active{
+        background-color: hsl(0, 0, 100% / 0.8);
+    }
+
     .navbar__logo{
         @include logo;
     }

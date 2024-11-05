@@ -38,4 +38,12 @@
         }
     }
 
+    .input__container{
+        @include inputContainer;
+
+        button{
+            background: $secondary-color;
+        }
+    }
+
 }
