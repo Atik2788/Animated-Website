@@ -33,6 +33,7 @@
     border-radius: 20px;
     background: none;
     font-weight: bold;
+    // transition: color 0.1s ease, background 0.1s ease, border 0.1s ease;
   }
   
   @mixin routes {
@@ -96,13 +97,17 @@
   }
 
   @mixin activeBtn{
-    color:  #0c1727;
-    background: white;
-    border:  none;
+    color:  white;
+    background: #0c1727;
+    border:  2px solid #0c1727b1; 
+    transition: color 0.3s ease, background 0.6s ease, border 0.9s ease;
   }
 
   @mixin inactiveBtn{
-    color:  white;
-    background: none;
+    color:  rgb(1, 1, 1);
+    background: white;
     border:  2px solid white;
+    transition: color 0.3s ease, background 0.6s ease, border 0.9s ease;
   }
+
+

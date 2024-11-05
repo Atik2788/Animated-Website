@@ -4,6 +4,7 @@ import '../Styles/navbar.scss'
 
 const Navbar = () => {
 
+    // set condition for navbar background
     const [bgColor, setBgColor] = useState(false)
 
     function changeBgColor (){
@@ -15,6 +16,7 @@ const Navbar = () => {
 
     window.addEventListener("scroll", changeBgColor)
 
+    // set condition design in btn, css comes from navbar.scss
     const styleBtn = bgColor ? "activeBtn" : "inactiveBtn"
 
     return (

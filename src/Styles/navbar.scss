@@ -31,17 +31,17 @@
         @include flexAlign;
         gap: $lg-gap;
 
+
+        // nav login and registrtion btn design and set condition style. also inport from _contantt.scss
         button{
             @include button;
-            background: $secondary-color;
-            color: $primary-color;
-        }
+            &.activeBtn{
+                @include activeBtn;
+            }
+            &.inactiveBtn{
+                @include inactiveBtn;
+            }
 
-        .activeBtn{
-            @include activeBtn;
-        }
-        .inactiveBtn{
-            @include inactiveBtn;
-        }
     }
+}
 }
