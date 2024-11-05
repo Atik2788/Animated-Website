@@ -15,6 +15,8 @@ const Navbar = () => {
 
     window.addEventListener("scroll", changeBgColor)
 
+    const styleBtn = bgColor ? "activeBtn" : "inactiveBtn"
+
     return (
         <div className={bgColor ? 'app__navbar active' : 'app__navbar'}>
             <div className="navbar__logo">
@@ -30,8 +32,8 @@ const Navbar = () => {
                 }
             </ul>
             <div className="navbar__buttons">
-                <button>Login</button>
-                <button>Register</button>
+                <button className={styleBtn}>Login</button>
+                <button className={styleBtn}>Register</button>
             </div>
         </div>
     );

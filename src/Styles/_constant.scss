@@ -94,3 +94,15 @@
     text-decoration: none;
     color: inherit;
   }
+
+  @mixin activeBtn{
+    color:  #0c1727;
+    background: white;
+    border:  none;
+  }
+
+  @mixin inactiveBtn{
+    color:  white;
+    background: none;
+    border:  2px solid white;
+  }

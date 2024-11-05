@@ -13,7 +13,10 @@
     // color: $secondary-color;
 
     &.active{
-        background-color: hsl(0, 0, 100% / 0.8);
+        background-color: hsl(0 0    100% / 0.5);
+        backdrop-filter: blur(14px);
+        box-shadow: 0 0 10px rgb(0 , 0, 0, 0.2);
+        color: $primary-color;
     }
 
     .navbar__logo{
@@ -32,6 +35,13 @@
             @include button;
             background: $secondary-color;
             color: $primary-color;
+        }
+
+        .activeBtn{
+            @include activeBtn;
+        }
+        .inactiveBtn{
+            @include inactiveBtn;
         }
     }
 }
