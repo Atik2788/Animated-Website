@@ -11,6 +11,7 @@
     width: 100%;
     transition: $trans;
     // color: $secondary-color;
+    z-index: 2;
 
     &.active{
         background-color: hsl(0 0    100% / 0.5);
