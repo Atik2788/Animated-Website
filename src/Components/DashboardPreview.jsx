@@ -1,10 +1,10 @@
 import '../Styles/dashboardPreview.scss'
-import { dashboard, onephone, twophones, feature } from '../Images'
+import { dashboard } from '../Images'
 
 const DashboardPreview = () => {
   return (
     <div className='app__dashboard'>
-      <img src={dashboard} alt="" />
+      <img src={dashboard} alt="" draggable={false} />
     </div>
   )
 }
