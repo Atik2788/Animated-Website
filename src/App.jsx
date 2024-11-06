@@ -6,7 +6,7 @@ const App = () => {
     <div className='app'>
       <Navbar/>
       <Home/>
-      <DashboardPreview/>
+      {/* <DashboardPreview/> */}
       <AnaLytics/>
     </div>
   );
