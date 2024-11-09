@@ -3,6 +3,7 @@ import Navbar from "./Navbar";
 import DashboardPreview from "./DashboardPreview";
 import AnaLytics from "./Analytics";
 import Feature from './Feature';
+import Control from './Control.jsx';
 
 
 export {
@@ -10,5 +11,6 @@ export {
     Navbar,
     DashboardPreview,
     AnaLytics,
-    Feature
+    Feature, 
+    Control
 }

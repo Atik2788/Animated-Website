@@ -2,6 +2,7 @@ import {feature} from '../Images'
 import {features} from '../Data/dummy';
 import { TiTick } from 'react-icons/ti';
 import '../Styles/feature.scss'
+import Control from './Control';
 
 
 const Feature = () => {
@@ -29,6 +30,7 @@ const Feature = () => {
               </div>
             </div>
         </div>
+        <Control/>
     </div>
   )
 }
