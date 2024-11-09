@@ -13,6 +13,7 @@
             @include flexDirection;
             gap: $lg-gap;
             flex: 1;
+            
 
             .left__text{
                 @include flexDirection;
