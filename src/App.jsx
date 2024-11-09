@@ -1,6 +1,6 @@
 import './app.scss'
 
-import {Home, Navbar, DashboardPreview, AnaLytics, Feature } from "./Components/index"
+import {Home, Navbar, DashboardPreview, AnaLytics, Feature, Distribution } from "./Components/index"
 
 const App = () => {
   return (
@@ -10,6 +10,7 @@ const App = () => {
       <DashboardPreview/>
       <AnaLytics/>
       <Feature/>
+      <Distribution/>
     </div>
   );
 };

@@ -4,6 +4,7 @@ import DashboardPreview from "./DashboardPreview";
 import AnaLytics from "./Analytics";
 import Feature from './Feature';
 import Control from './Control.jsx';
+import Distribution from './Distribution.jsx';
 
 
 export {
@@ -12,5 +13,6 @@ export {
     DashboardPreview,
     AnaLytics,
     Feature, 
-    Control
+    Control,
+    Distribution
 }
