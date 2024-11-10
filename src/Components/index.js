@@ -5,6 +5,7 @@ import AnaLytics from "./Analytics";
 import Feature from './Feature';
 import Control from './Control.jsx';
 import Distribution from './Distribution.jsx';
+import Footer from './Footer.jsx';
 
 
 export {
@@ -14,5 +15,6 @@ export {
     AnaLytics,
     Feature, 
     Control,
-    Distribution
+    Distribution,
+    Footer
 }
