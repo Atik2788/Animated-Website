@@ -1,2 +1,74 @@
 @import './variables';
 @import './constant';
+
+
+.app__footer{
+    padding: $md-gap;
+    background-color: $primary-color;
+    color: $secondary-color;
+
+    .footer__container{
+        @include flexDirection;
+        gap: $lg-gap;
+
+        .footer__top{
+            @include flexBetween;
+            padding-bottom: $lg-gap;
+            border-bottom: $border;
+
+            .logo{
+                @include logo;
+            }
+
+            .footer__cta{
+                @include flexAlign;
+                gap: $lg-gap;
+
+                button{
+                    @include button;
+                    color: $primary-color;
+                    background-color: $secondary-color;
+                }
+            }
+        }
+
+        .footer__middle{
+            @include flexBetween;
+
+            .left__middle{
+                @include flexDirection;
+                gap: $lg-gap;
+
+                .input__container{
+                    border: $border;
+                    padding: .2rem;
+                    border-radius: 25px;
+
+                    input{
+                        @include input;
+                    }
+
+                    button{
+                        @include button;
+                        background: $elementary-color;
+                        color: $secondary-color
+                    }
+                }
+            }
+
+            .right__middle{
+
+
+                .middle__route{
+                    @include routes;
+
+                    li{
+                        @include textGradient;
+                    }
+
+                }
+            }
+        }
+    }
+
+}
