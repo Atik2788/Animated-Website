@@ -3,7 +3,7 @@ import {TiTick} from "react-icons/ti"
 
 const Home = () => {
   return (
-    <div className='app__home'>
+    <div id='home' className='app__home'>
       <div className="home__text">
         <h1>Make Your Business</h1>
         <h1>More Powerfull</h1>        

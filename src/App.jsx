@@ -1,6 +1,6 @@
 import './app.scss'
 
-import {Home, Navbar, DashboardPreview, AnaLytics, Feature, Distribution, Footer } from "./Components/index"
+import {Home, Navbar, DashboardPreview, AnaLytics, Feature, Distribution, Footer,STTop  } from "./Components/index"
 
 const App = () => {
   return (
@@ -12,6 +12,7 @@ const App = () => {
       <Feature/>
       <Distribution/>
       <Footer/>
+      <STTop/>
     </div>
   );
 };

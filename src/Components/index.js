@@ -6,6 +6,7 @@ import Feature from './Feature';
 import Control from './Control.jsx';
 import Distribution from './Distribution.jsx';
 import Footer from './Footer.jsx';
+import STTop from './STTop.jsx';
 
 
 export {
@@ -16,5 +17,6 @@ export {
     Feature, 
     Control,
     Distribution,
-    Footer
+    Footer,
+    STTop
 }
