@@ -69,6 +69,14 @@
                 }
             }
         }
+
+        .footer__bottom{
+            @include flexBetween;
+
+            ul{
+                @include routes;
+            }
+        }
     }
 
 }
